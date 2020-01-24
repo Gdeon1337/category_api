@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25956b1a-195e-429a-8f16-72d51a6ea0cf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WQ6qblM065rhB0fobJqjtZvta5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/categories_api/views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="categories" type="Python.DjangoServer" factoryName="Django server">
+      <module name="categories" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="categories.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25956b1a-195e-429a-8f16-72d51a6ea0cf" name="Default Changelist" comment="" />
+      <created>1579069662650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579069662650</updated>
+      <workItem from="1579069684006" duration="8912000" />
+      <workItem from="1579079034014" duration="14141000" />
+      <workItem from="1579161614620" duration="19270000" />
+      <workItem from="1579242952027" duration="14918000" />
+      <workItem from="1579590492820" duration="19085000" />
+      <workItem from="1579683049117" duration="7433000" />
+      <workItem from="1579768038672" duration="632000" />
+      <workItem from="1579774331654" duration="5073000" />
+      <workItem from="1579849729200" duration="609000" />
+      <workItem from="1579854137676" duration="2854000" />
+      <workItem from="1579867966351" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="312" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579867975988">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state x="776" y="312" width="424" height="491" key="FileChooserDialogImpl/67.28.1853.1052@67.28.1853.1052" timestamp="1579867975988" />
+    <state width="1801" height="272" key="GridCell.Tab.0.bottom" timestamp="1579692730406">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="272" key="GridCell.Tab.0.bottom/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730406" />
+    <state width="1801" height="272" key="GridCell.Tab.0.center" timestamp="1579692730405">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="272" key="GridCell.Tab.0.center/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730405" />
+    <state width="1801" height="272" key="GridCell.Tab.0.left" timestamp="1579692730405">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="272" key="GridCell.Tab.0.left/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730405" />
+    <state width="1801" height="272" key="GridCell.Tab.0.right" timestamp="1579692730405">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="272" key="GridCell.Tab.0.right/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730405" />
+    <state width="1801" height="336" key="GridCell.Tab.1.bottom" timestamp="1579686723938">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="336" key="GridCell.Tab.1.bottom/67.28.1853.1052@67.28.1853.1052" timestamp="1579686723938" />
+    <state width="1801" height="336" key="GridCell.Tab.1.center" timestamp="1579686723938">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="336" key="GridCell.Tab.1.center/67.28.1853.1052@67.28.1853.1052" timestamp="1579686723938" />
+    <state width="1801" height="336" key="GridCell.Tab.1.left" timestamp="1579686723937">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="336" key="GridCell.Tab.1.left/67.28.1853.1052@67.28.1853.1052" timestamp="1579686723937" />
+    <state width="1801" height="336" key="GridCell.Tab.1.right" timestamp="1579686723938">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="336" key="GridCell.Tab.1.right/67.28.1853.1052@67.28.1853.1052" timestamp="1579686723938" />
+    <state width="926" height="526" key="XDebugger.FullValuePopup" timestamp="1579597743064">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="926" height="526" key="XDebugger.FullValuePopup/67.28.1853.1052@67.28.1853.1052" timestamp="1579597743064" />
+    <state x="656" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1579252743969">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state x="656" y="260" width="672" height="678" key="search.everywhere.popup/67.28.1853.1052@67.28.1853.1052" timestamp="1579252743969" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="products[0]" language="Python" />
+        <watch expression="kwargs.get('pk')" language="Python" />
+        <watch expression="queryset.annotate(count_products=Count('products')).get(1)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
