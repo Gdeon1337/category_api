@@ -49,7 +49,6 @@ class Values(models.Model):
 
 class ProductValues(models.Model):
     priority = models.IntegerField()
-
     value = models.ForeignKey(Values, on_delete=models.CASCADE)
     product = models.ForeignKey(Products, on_delete=models.CASCADE)
 

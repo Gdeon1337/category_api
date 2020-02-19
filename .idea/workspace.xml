@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25956b1a-195e-429a-8f16-72d51a6ea0cf" name="Default Changelist" comment="" />
+    <list default="true" id="25956b1a-195e-429a-8f16-72d51a6ea0cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elastic_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elastic_search/conn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elastic_search/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/categories_api/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WQ6qblM065rhB0fobJqjtZvta5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -100,6 +112,19 @@
       <workItem from="1579849729200" duration="609000" />
       <workItem from="1579854137676" duration="2854000" />
       <workItem from="1579867966351" duration="12000" />
+      <workItem from="1579869628221" duration="2489000" />
+      <workItem from="1580114623873" duration="4439000" />
+      <workItem from="1580202958308" duration="4300000" />
+      <workItem from="1580460731587" duration="247000" />
+      <workItem from="1580717617168" duration="12269000" />
+      <workItem from="1580808911783" duration="764000" />
+      <workItem from="1580814079194" duration="20000" />
+      <workItem from="1580819599916" duration="380000" />
+      <workItem from="1580907968520" duration="1876000" />
+      <workItem from="1580974501885" duration="5645000" />
+      <workItem from="1581064154544" duration="82000" />
+      <workItem from="1581166433523" duration="224000" />
+      <workItem from="1582099515391" duration="1126000" />
     </task>
     <servers />
   </component>
@@ -107,26 +132,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="312" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579867975988">
+    <state x="588" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580908035775">
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
-    <state x="776" y="312" width="424" height="491" key="FileChooserDialogImpl/67.28.1853.1052@67.28.1853.1052" timestamp="1579867975988" />
-    <state width="1801" height="272" key="GridCell.Tab.0.bottom" timestamp="1579692730406">
+    <state x="588" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.28.1853.1052@67.28.1853.1052" timestamp="1580908035775" />
+    <state x="776" y="312" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581152860440">
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
-    <state width="1801" height="272" key="GridCell.Tab.0.bottom/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730406" />
-    <state width="1801" height="272" key="GridCell.Tab.0.center" timestamp="1579692730405">
+    <state x="776" y="312" width="424" height="491" key="FileChooserDialogImpl/67.28.1853.1052@67.28.1853.1052" timestamp="1581152860440" />
+    <state width="1801" height="272" key="GridCell.Tab.0.bottom" timestamp="1582100091982">
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
-    <state width="1801" height="272" key="GridCell.Tab.0.center/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730405" />
-    <state width="1801" height="272" key="GridCell.Tab.0.left" timestamp="1579692730405">
+    <state width="1801" height="272" key="GridCell.Tab.0.bottom/67.28.1853.1052@67.28.1853.1052" timestamp="1582100091982" />
+    <state width="1801" height="272" key="GridCell.Tab.0.center" timestamp="1582100091982">
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
-    <state width="1801" height="272" key="GridCell.Tab.0.left/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730405" />
-    <state width="1801" height="272" key="GridCell.Tab.0.right" timestamp="1579692730405">
+    <state width="1801" height="272" key="GridCell.Tab.0.center/67.28.1853.1052@67.28.1853.1052" timestamp="1582100091982" />
+    <state width="1801" height="272" key="GridCell.Tab.0.left" timestamp="1582100091981">
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
-    <state width="1801" height="272" key="GridCell.Tab.0.right/67.28.1853.1052@67.28.1853.1052" timestamp="1579692730405" />
+    <state width="1801" height="272" key="GridCell.Tab.0.left/67.28.1853.1052@67.28.1853.1052" timestamp="1582100091981" />
+    <state width="1801" height="272" key="GridCell.Tab.0.right" timestamp="1582100091982">
+      <screen x="67" y="28" width="1853" height="1052" />
+    </state>
+    <state width="1801" height="272" key="GridCell.Tab.0.right/67.28.1853.1052@67.28.1853.1052" timestamp="1582100091982" />
     <state width="1801" height="336" key="GridCell.Tab.1.bottom" timestamp="1579686723938">
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
@@ -147,10 +176,10 @@
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
     <state width="926" height="526" key="XDebugger.FullValuePopup/67.28.1853.1052@67.28.1853.1052" timestamp="1579597743064" />
-    <state x="656" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1579252743969">
+    <state x="656" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1580724965092">
       <screen x="67" y="28" width="1853" height="1052" />
     </state>
-    <state x="656" y="260" width="672" height="678" key="search.everywhere.popup/67.28.1853.1052@67.28.1853.1052" timestamp="1579252743969" />
+    <state x="656" y="260" width="672" height="678" key="search.everywhere.popup/67.28.1853.1052@67.28.1853.1052" timestamp="1580724965092" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
