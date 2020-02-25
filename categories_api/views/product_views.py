@@ -1,7 +1,8 @@
+from django.db.models import Prefetch
 from rest_framework import viewsets
 from rest_framework.response import Response
 
-from categories_api.models import Products, CategoryAttributes
+from categories_api.models import Products, CategoryAttributes, ProductValues
 from categories_api.serializers import ProductsSerializer
 
 
@@ -21,20 +22,21 @@ class ProductsView(viewsets.ModelViewSet):
             min_price, max_price = price.split('-')
             products = products.filter(price__range=(float(min_price), float(max_price)))
         for attribute in attributes:
-            attribute_filter_value = request.query_params.get(f'f[{attribute.attribute.id}]')
+            attribute_filter_value = request.query_params.get(f'f[{attribute.attribute_id}]')
             if attribute_filter_value:
                 products = products.filter(
-                    productvalues__value__attribute__id=attribute.attribute.id,
+                    productvalues__value__attribute__id=attribute.attribute_id,
                     productvalues__value__value__data=attribute_filter_value
                     .replace('f[', '').replace(']', '')
                 )
                 continue
-            attribute_filter_value = request.query_params.get(f'fr[{attribute.attribute.id}]')
+            attribute_filter_value = request.query_params.get(f'fr[{attribute.attribute_id}]')
             if attribute_filter_value:
                 attribute_filter_value = attribute_filter_value.replace('fr[', '').replace(']', '')
                 min_value, max_value = attribute_filter_value.split('-')
                 products = products\
-                    .filter(productvalues__value__attribute__id=attribute.attribute.id)\
+                    .filter(productvalues__value__attribute__id=attribute.attribute_id)\
                     .filter(productvalues__value__value__data__range=(float(min_value), float(max_value)))
+        products = products.prefetch_related('values_set').order_by('values__value')
         serializer = self.get_serializer(products.all(), many=True)
         return Response(serializer.data)
